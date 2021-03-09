@@ -1,0 +1,53 @@
+@mixin articles($ancho, $animal) {
+  width: $ancho;
+  padding: 20px;
+  box-shadow: $sombraCajas;
+  margin: 20px 0;
+  border-radius: 15px;
+
+  @if $animal == gato {
+    background: url("https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/facebook_share/public/Purina%C2%AE%20Como%20disciplinar%20a%20tu%20gato.jpg?itok=xitPK9Si");
+    background-size: cover;
+    background-position: center;
+  } @else if $animal == perro {
+    background: url("https://www.ecestaticos.com/image/clipping/79776773aab795837282c7d4947abaf7/por-que-nos-parece-que-los-perros-sonrien-una-historia-de-30-000-anos.jpg");
+    background-size: cover;
+    background-position: center;
+  } @else {
+    background: $blanco;
+  }
+}
+
+@mixin flex($fd, $jc, $ai) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin grid($columns, $rows, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+  grid-gap: $gap;
+}
+
+// body {
+//    @include grid(repeat(3, 1fr), 50vh 50vh, 20px);
+
+//    @media screen and (max-width: 768px) {
+//        @include grid(repeat(100%), repeat(4, auto), 10px);
+//    }
+// }
+
+@mixin redesSociales($red) {
+  @if $red == fb {
+    background: rgb(50, 88, 213);
+  } @else if $red == ig {
+    background: rgb(104, 50, 213);
+  } @else if $red == tw {
+    background: rgb(80, 158, 226);
+  } @else {
+    background: #333;
+  }
+}

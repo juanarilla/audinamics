@@ -1,0 +1,11 @@
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction: This proyect was made as a challenge for the CoderHouse Front End Class.
+
+ * Technology: HTML5, CSS, Bootstrap 5.0, GiT
+
+ * Installation: Not requered 
+
+ * Troubleshooting: thanks god, NONE
+

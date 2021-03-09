@@ -1,0 +1,94 @@
+.footer_estilo {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  align-items: center; }
+  .footer_estilo li {
+    margin: 0 20px; }
+    .footer_estilo li .social--facebook {
+      background-color: blue; }
+    .footer_estilo li .social--instagram {
+      background-color: red; }
+    .footer_estilo li .social--twitter {
+      background-color: black; }
+
+.bodyjuan {
+  background: #242129;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23b02929' fill-opacity='0.33' fill-rule='evenodd'/%3E%3C/svg%3E"); }
+
+.articulo1 .articulo1__Titulo {
+  color: yellow; }
+
+.articulo1 .articulo1__Parrafo {
+  color: white; }
+
+.articulo1 .articulo1__Bot {
+  display: inline-block;
+  background-color: yellow;
+  padding: 5px;
+  color: black;
+  margin: 15px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.articulo1 .articulo1__Parrafo--grande {
+  font-size: xx-large; }
+
+.articulo2 .articulo2__Titulo {
+  color: white; }
+
+.articulo2 .articulo2__Parrafo {
+  color: yellow; }
+
+.articulo2 .articulo2__Bot {
+  display: inline-block;
+  background-color: yellow;
+  padding: 5px;
+  color: black;
+  margin: 15px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.articulo2 .articulo2__Parrafo--grande {
+  font-size: xx-large; }
+
+.social--facebook {
+  display: block;
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center; }
+
+.social--instagram {
+  display: block;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center; }
+
+.social--twitter {
+  display: block;
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center; }
+
+.footer_estilo {
+  display: flex;
+  padding: 25px;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 200px; }
+
+li {
+  margin: 0 20px; }
+
+.footer_estilo li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white; }
